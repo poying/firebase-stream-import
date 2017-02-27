@@ -1,0 +1,21 @@
+{
+  "name": "firebase-stream-import",
+  "version": "1.0.0",
+  "description": "This module is for who want to import a large json file to Firebase in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "make build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bytes": "^2.4.0",
+    "multipipe": "^1.0.2",
+    "split-json-stream": "1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0"
+  }
+}
