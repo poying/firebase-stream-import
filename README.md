@@ -12,7 +12,7 @@ fs.createReadStream('./database.json')
     projectId: '...', // required
 
     // one of these options is required
-    accessToken: '...', // you can generate an access token from `firebase-admin`
+    accessToken: '...', // you can generate an access token by using `firebase-admin`
     secret: '...', // you can find secret in Firebase console
   }));
 ```
